@@ -1,6 +1,4 @@
 # ProjectoFinal---Biblioteca-Virtual
 Trabajo Final sobre como tener una pagina web personalizable y funcional
 
-TRABAJANDO EN
-LA PAGINA WER - PRONTO LA SUBO
-CANDIDA TU VAS A HACER LA PARTE HTML PUEDES IR HACIENDOLA Y VER QUE FUNCIONA MIRA UN VIDEO DE FLASK Y CREA EL DISEÑO DE LA PAGINA WEB SIN ENFOCARTE EN HACER LOS BOTONES
+Trabajo en progreso 😅

@@ -5,7 +5,7 @@ Biblioteca Virtual
 Aplicación web CRUD desarrollada con **Flask** y **SQLite3**, que permite gestionar libros de manera sencilla (crear, listar, actualizar y eliminar).  
 Proyecto organizado de forma modular y funcionando sin SQLAlchemy.
 
-Características principales
+----------------- Características principales -----------------
 
 - CRUD completo de libros (Crear, Leer, Actualizar, Eliminar)
 - Base de datos SQLite3 con esquema controlado mediante archivo `schema.sql`
@@ -15,21 +15,21 @@ Características principales
 - Estilos básicos con Bootstrap
 - Estructura de proyecto profesional
 
-Estructura del proyecto
+----------------- Estructura del proyecto -----------------
 
 <img width="168" height="359" alt="image" src="https://github.com/user-attachments/assets/f734f2f2-859a-4522-92b0-2e68a69ff86f" />
 
-Requisitos previos
+-----------------------------------------------------------
+
+----------------- Requisitos previos -----------------
 
 Debes tener instalado:
-
 - Python 3.8 o superior  
 - pip (incluido con Python)
 
-1. Crear y activar entorno virtual
+----------------- Crear y activar entorno virtual -----------------
 
 Windows:
-
 python -m venv env
 env\Scripts\activate
 
@@ -37,13 +37,11 @@ Linux/Mac:
 python3 -m venv env
 source env/bin/activate
 
-Instalar dependencias
-
+- Instalar dependencias
 En tu entorno virtual ejecuta:
-
 pip install -r requirements.txt
 
-3. Crear la base de datos
+----------------- Crear la base de datos -----------------
 
 Ejecuta este comando una vez:
 sqlite3 database.db < schema.sql
@@ -53,15 +51,16 @@ del database.db   # Windows
 rm database.db    # Linux/Mac
 sqlite3 database.db < schema.sql
 
-4. Ejecutar la aplicación
+----------------- Ejecutar la aplicación -----------------
 
-Desde la raíz del proyecto:
-python iniciar.py
+Desde la raíz del proyecto busco el archivo python y correlo:
+iniciar.py
 
-Abre en tu navegador:
-http://127.0.0.1:5000
+Abre en tu navegador con la direccion web que tu entorno muestra:
+por ejemplo: http://127.0.0.1:5000
 
-5. Funcionalidades del CRUD
+----------------- Funcionalidades del CRUD -----------------
+
 - /libros → Listar todos los libros
 - /libros/nuevo → Crear un nuevo libro
 - /libros/editar/<id> → Editar un libro
@@ -71,7 +70,8 @@ Los formularios validan que:
 El nombre no esté vacío
 El precio sea un número válido
 
-6. Migraciones (Manual)
+----------------- Migraciones (Manual) -----------------
+
 Como no usamos SQLAlchemy, las migraciones se hacen así:
 Editas schema.sql.
 
@@ -83,8 +83,9 @@ Opcionalmente puedes agregar una carpeta:
 migrations/
     001_create_tables.sql
 
-7. Problemas comunes
-"cannot import name 'create_app' from 'app'"
+----------------- Problemas comunes -----------------
+
+- "cannot import name 'create_app' from 'app'"
 
 Solución: Asegúrate de que __init__.py contiene:
 
@@ -93,13 +94,14 @@ def create_app():
     ...
     return app
 
-Flask no detecta templates
+- Flask no detecta templates
+
 Verifica que la estructura sea:
 
 app/templates/
 
-Autores del Proyecto
+----------------- Autores del Proyecto -----------------
 Proyecto realizado por Candida Morfa y Amin Abel Amador Jimenez como parte de la práctica final del curso de Python Intermedio.
 
-Licencia
-Uso educativo – libre para mejorar, modificar o extender.
+----------------- Licencia -----------------
+Uso educativo – libre para mejorar, modificar o extender el uso de Flask en un entorno seguro.

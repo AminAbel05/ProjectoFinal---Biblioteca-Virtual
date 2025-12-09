@@ -46,9 +46,11 @@ pip install -r requirements.txt
 ----------------- Crear la base de datos -----------------
 
 Ejecuta este comando una vez:
+
 sqlite3 database.db < schema.sql
 
 Si quieres borrar todo y empezar de cero:
+
 del database.db   # Windows
 rm database.db    # Linux/Mac
 sqlite3 database.db < schema.sql
@@ -56,9 +58,11 @@ sqlite3 database.db < schema.sql
 ----------------- Ejecutar la aplicación -----------------
 
 Desde la raíz del proyecto busco el archivo python y correlo:
+
 iniciar.py
 
 Abre en tu navegador con la direccion web que tu entorno muestra:
+
 por ejemplo: http://127.0.0.1:5000
 
 ----------------- Funcionalidades del CRUD -----------------
@@ -69,19 +73,23 @@ por ejemplo: http://127.0.0.1:5000
 - /libros/eliminar/<id> → Eliminar un libro
 
 Los formularios validan que:
+
 El nombre no esté vacío
 El precio sea un número válido
 
 ----------------- Migraciones (Manual) -----------------
 
 Como no usamos SQLAlchemy, las migraciones se hacen así:
+
 Editas schema.sql.
 
 Si cambias tablas:
+
 Borras database.db
 Ejecutas de nuevo el schema.
 
 Opcionalmente puedes agregar una carpeta:
+
 migrations/
     001_create_tables.sql
 

@@ -29,14 +29,17 @@ Debes tener instalado:
 ----------------- Crear y activar entorno virtual -----------------
 
 Windows:
+
 python -m venv env
 env\Scripts\activate
 
 Linux/Mac:
+
 python3 -m venv env
 source env/bin/activate
 
 - Instalar dependencias
+
 En tu entorno virtual ejecuta:
 pip install -r requirements.txt
 

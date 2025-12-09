@@ -16,6 +16,29 @@ Características principales
 - Estructura de proyecto profesional
 
 Estructura del proyecto
+
 <img width="168" height="359" alt="image" src="https://github.com/user-attachments/assets/f734f2f2-859a-4522-92b0-2e68a69ff86f" />
 
+## 🔧 Requisitos previos
 
+Debes tener instalado:
+
+- Python 3.8 o superior  
+- pip (incluido con Python)
+
+---
+
+## 🛠️ 1. Crear y activar entorno virtual
+
+### Windows:
+```bash
+python -m venv env
+env\Scripts\activate
+
+Linux/Mac:
+python3 -m venv env
+source env/bin/activate
+
+Instalar dependencias
+
+En tu entorno virtual ejecuta:

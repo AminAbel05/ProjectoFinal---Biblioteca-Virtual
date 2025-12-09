@@ -17,7 +17,8 @@ Proyecto organizado de forma modular y funcionando sin SQLAlchemy.
 
 ----------------- Estructura del proyecto -----------------
 
-<img width="168" height="359" alt="image" src="https://github.com/user-attachments/assets/f734f2f2-859a-4522-92b0-2e68a69ff86f" />
+<img width="167" height="288" alt="image" src="https://github.com/user-attachments/assets/47261119-9050-41e4-9634-a84ecb5dc859" />
+
 
 
 ----------------- Requisitos previos -----------------

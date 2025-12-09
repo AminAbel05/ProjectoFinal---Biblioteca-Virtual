@@ -100,8 +100,11 @@ migrations/
 Solución: Asegúrate de que __init__.py contiene:
 
 def create_app():
+
     app = Flask(__name__)
+    
     ...
+    
     return app
 
 - Flask no detecta templates

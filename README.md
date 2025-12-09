@@ -38,7 +38,7 @@ Linux/Mac:
 python3 -m venv env
 source env/bin/activate
 
-- Instalar dependencias
+Instalar dependencias
 
 En tu entorno virtual ejecuta:
 pip install -r requirements.txt

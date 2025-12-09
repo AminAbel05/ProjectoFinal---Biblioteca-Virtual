@@ -19,6 +19,7 @@ Proyecto organizado de forma modular y funcionando sin SQLAlchemy.
 
 <img width="168" height="359" alt="image" src="https://github.com/user-attachments/assets/f734f2f2-859a-4522-92b0-2e68a69ff86f" />
 
+
 ----------------- Requisitos previos -----------------
 
 Debes tener instalado:

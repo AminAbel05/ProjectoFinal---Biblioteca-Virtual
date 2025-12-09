@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<h1>Lista de Libros</h1>
+<a href="{{ url_for('main.crear') }}">Agregar Libro</a>
+<ul>
+    {% for libro in libros %}
+    <li>
+        {{ libro["nombre"] }} - {{ libro["precio"] }} USD
+        <a href="{{ url_for('main.editar', id=libro['id']) }}">Editar</a>
+        <a href="{{ url_for('main.eliminar', id=libro['id']) }}">Eliminar</a>
+    </li>
+    {% endfor %}
+</ul>
